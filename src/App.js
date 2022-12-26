@@ -83,7 +83,7 @@ function App() {
       } catch (error) {
         setTodos([]);
         toast({
-          title: error.message,
+          title: 'unable to fetch data',
           position: 'top-right',
           status: 'error',
           duration: 2000,
