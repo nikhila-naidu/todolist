@@ -92,7 +92,7 @@ function App() {
     };
 
     getTodos();
-  }, [todos, toast]);
+  }, [toast]);
 
   return (
     <VStack>
