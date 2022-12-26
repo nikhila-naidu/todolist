@@ -112,7 +112,7 @@ function App() {
           </Button>
         </HStack>
       </form>
-      <VStack width='20vw'>
+      <VStack width='400px'>
         {todos.map((todo) => {
           return (
             <Card key={todo.id} direction='column' width='full' px='4' py='2'>
