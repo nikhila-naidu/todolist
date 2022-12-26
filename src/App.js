@@ -81,7 +81,6 @@ function App() {
         const result = await axios.get('items/todos');
         setTodos(result.data.data);
       } catch (error) {
-        setTodos([]);
         toast({
           title: 'unable to fetch data',
           position: 'top-right',
